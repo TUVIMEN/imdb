@@ -1,0 +1,774 @@
+{
+  "tconst": "tt0000304",
+  "aboveTheFoldData": {
+    "id": "tt0000304",
+    "productionStatus": {
+      "currentProductionStage": {
+        "id": "released",
+        "text": "Released",
+        "__typename": "ProductionStage"
+      },
+      "productionStatusHistory": [
+        {
+          "status": {
+            "id": "released",
+            "text": "Released",
+            "__typename": "ProductionStatus"
+          },
+          "__typename": "ProductionStatusHistory"
+        }
+      ],
+      "restriction": null,
+      "__typename": "ProductionStatusDetails"
+    },
+    "canHaveEpisodes": false,
+    "series": null,
+    "titleText": {
+      "text": "Grandma's Reading Glass",
+      "__typename": "TitleText"
+    },
+    "titleType": {
+      "displayableProperty": {
+        "value": {
+          "plainText": "Short",
+          "__typename": "Markdown"
+        },
+        "__typename": "DisplayableTitleTypeProperty"
+      },
+      "text": "Short",
+      "id": "short",
+      "isSeries": false,
+      "isEpisode": false,
+      "categories": [
+        {
+          "value": "movie",
+          "__typename": "TitleTypeCategory"
+        }
+      ],
+      "canHaveEpisodes": false,
+      "__typename": "TitleType"
+    },
+    "originalTitleText": {
+      "text": "Grandma's Reading Glass",
+      "__typename": "TitleText"
+    },
+    "certificate": null,
+    "releaseYear": {
+      "year": 1900,
+      "endYear": null,
+      "__typename": "YearRange"
+    },
+    "releaseDate": {
+      "day": null,
+      "month": 11,
+      "year": 1900,
+      "__typename": "ReleaseDate"
+    },
+    "runtime": {
+      "seconds": 120,
+      "displayableProperty": {
+        "value": {
+          "plainText": "2m",
+          "__typename": "Markdown"
+        },
+        "__typename": "DisplayableTitleRuntimeProperty"
+      },
+      "__typename": "Runtime"
+    },
+    "canRate": {
+      "isRatable": true,
+      "__typename": "CanRate"
+    },
+    "ratingsSummary": {
+      "aggregateRating": 6,
+      "voteCount": 1266,
+      "__typename": "RatingsSummary"
+    },
+    "meterRanking": null,
+    "primaryImage": {
+      "id": "rm130177280",
+      "width": 550,
+      "height": 800,
+      "url": "https://m.media-amazon.com/images/M/MV5BYjA3NGU2YzktZmI5Ni00NTVhLWJlY2EtYzA2MzNkY2JlNTUxXkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_.jpg",
+      "caption": {
+        "plainText": "Grandma's Reading Glass (1900)",
+        "__typename": "Markdown"
+      },
+      "__typename": "Image"
+    },
+    "images": {
+      "total": 2,
+      "__typename": "ImageConnection"
+    },
+    "videos": {
+      "total": 0,
+      "__typename": "TitleRelatedVideosConnection"
+    },
+    "primaryVideos": {
+      "edges": [],
+      "__typename": "VideoConnection"
+    },
+    "externalLinks": {
+      "total": 3,
+      "__typename": "ExternalLinkConnection"
+    },
+    "metacritic": null,
+    "keywords": {
+      "total": 13,
+      "edges": [
+        {
+          "node": {
+            "text": "child's point of view",
+            "__typename": "TitleKeyword"
+          },
+          "__typename": "TitleKeywordEdge"
+        },
+        {
+          "node": {
+            "text": "grandmother grandson relationship",
+            "__typename": "TitleKeyword"
+          },
+          "__typename": "TitleKeywordEdge"
+        },
+        {
+          "node": {
+            "text": "magnifying glass",
+            "__typename": "TitleKeyword"
+          },
+          "__typename": "TitleKeywordEdge"
+        },
+        {
+          "node": {
+            "text": "kitten",
+            "__typename": "TitleKeyword"
+          },
+          "__typename": "TitleKeywordEdge"
+        },
+        {
+          "node": {
+            "text": "eye",
+            "__typename": "TitleKeyword"
+          },
+          "__typename": "TitleKeywordEdge"
+        }
+      ],
+      "__typename": "TitleKeywordConnection"
+    },
+    "genres": {
+      "genres": [
+        {
+          "text": "Short",
+          "id": "Short",
+          "__typename": "Genre"
+        },
+        {
+          "text": "Family",
+          "id": "Family",
+          "__typename": "Genre"
+        }
+      ],
+      "__typename": "Genres"
+    },
+    "plot": {
+      "plotText": {
+        "plainText": "A boy looks through glasses at various objects, seen magnified.",
+        "__typename": "Markdown"
+      },
+      "language": {
+        "id": "en-US",
+        "__typename": "DisplayableLanguage"
+      },
+      "__typename": "Plot"
+    },
+    "plotContributionLink": {
+      "url": "https://contribute.imdb.com/updates?update=tt0000304:outlines.add.1.locale~en-US",
+      "__typename": "ContributionLink"
+    },
+    "credits": {
+      "total": 3,
+      "__typename": "CreditConnection"
+    },
+    "principalCredits": [
+      {
+        "totalCredits": 1,
+        "category": {
+          "text": "Director",
+          "id": "director",
+          "__typename": "CreditCategory"
+        },
+        "credits": [
+          {
+            "name": {
+              "nameText": {
+                "text": "George Albert Smith",
+                "__typename": "NameText"
+              },
+              "id": "nm0808310",
+              "__typename": "Name"
+            },
+            "attributes": null,
+            "__typename": "Crew"
+          }
+        ],
+        "__typename": "PrincipalCreditsForCategory"
+      },
+      {
+        "totalCredits": 1,
+        "category": {
+          "text": "Star",
+          "id": "cast",
+          "__typename": "CreditCategory"
+        },
+        "credits": [
+          {
+            "name": {
+              "nameText": {
+                "text": "Harold Smith",
+                "__typename": "NameText"
+              },
+              "id": "nm2940072",
+              "__typename": "Name"
+            },
+            "attributes": null,
+            "__typename": "Cast"
+          }
+        ],
+        "__typename": "PrincipalCreditsForCategory"
+      }
+    ],
+    "reviews": {
+      "total": 14,
+      "__typename": "ReviewsConnection"
+    },
+    "criticReviewsTotal": {
+      "total": 2,
+      "__typename": "ExternalLinkConnection"
+    },
+    "triviaTotal": {
+      "total": 2,
+      "__typename": "TriviaConnection"
+    },
+    "engagementStatistics": null,
+    "subNavCredits": {
+      "total": 3,
+      "__typename": "CreditConnection"
+    },
+    "subNavReviews": {
+      "total": 14,
+      "__typename": "ReviewsConnection"
+    },
+    "subNavTrivia": {
+      "total": 2,
+      "__typename": "TriviaConnection"
+    },
+    "meta": {
+      "canonicalId": "tt0000304",
+      "publicationStatus": "PUBLISHED",
+      "__typename": "TitleMeta"
+    },
+    "castPageTitle": {
+      "edges": [
+        {
+          "node": {
+            "name": {
+              "nameText": {
+                "text": "Harold Smith",
+                "__typename": "NameText"
+              },
+              "__typename": "Name"
+            },
+            "__typename": "Cast"
+          },
+          "__typename": "CreditEdge"
+        }
+      ],
+      "__typename": "CreditConnection"
+    },
+    "creatorsPageTitle": [],
+    "directorsPageTitle": [
+      {
+        "credits": [
+          {
+            "name": {
+              "nameText": {
+                "text": "George Albert Smith",
+                "__typename": "NameText"
+              },
+              "__typename": "Name"
+            },
+            "__typename": "Crew"
+          }
+        ],
+        "__typename": "PrincipalCreditsForCategory"
+      }
+    ],
+    "countriesOfOrigin": {
+      "countries": [
+        {
+          "id": "GB",
+          "__typename": "CountryOfOrigin"
+        }
+      ],
+      "__typename": "CountriesOfOrigin"
+    },
+    "production": {
+      "edges": [
+        {
+          "node": {
+            "company": {
+              "id": "co0056758",
+              "companyText": {
+                "text": "George Albert Smith Films",
+                "__typename": "CompanyText"
+              },
+              "__typename": "Company"
+            },
+            "__typename": "CompanyCredit"
+          },
+          "__typename": "CompanyCreditEdge"
+        }
+      ],
+      "__typename": "CompanyCreditConnection"
+    },
+    "featuredReviews": {
+      "edges": [
+        {
+          "node": {
+            "author": {
+              "nickName": "Michael_Elliott",
+              "__typename": "UserProfile"
+            },
+            "summary": {
+              "originalText": "Thanks Grandma",
+              "__typename": "ReviewSummary"
+            },
+            "text": {
+              "originalText": {
+                "plainText": "Grandma's Reading Glasses (1900) ** (out of 4)\n\nThis film from George Albert Smith features a young boy looking at various objects in his grandmother's glasses. This of course magnifies the objects for the movie viewer to enjoy. You can watch a film like this and understand why people in 1900 might have been entertained by it. With that said, there's very little here to keep a modern viewer interested and even those film buffs such as myself who love these early movies will find very little here. The optical effect really isn't all that impressive and nothing he's \"seeing\" is that that interesting either.",
+                "__typename": "Markdown"
+              },
+              "__typename": "ReviewText"
+            },
+            "authorRating": null,
+            "submissionDate": "2015-08-05",
+            "__typename": "Review"
+          },
+          "__typename": "ReviewEdge"
+        }
+      ],
+      "__typename": "ReviewsConnection"
+    },
+    "__typename": "Title"
+  },
+  "mainColumnData": {
+    "id": "tt0000304",
+    "wins": {
+      "total": 0,
+      "__typename": "AwardNominationConnection"
+    },
+    "nominations": {
+      "total": 0,
+      "__typename": "AwardNominationConnection"
+    },
+    "prestigiousAwardSummary": null,
+    "ratingsSummary": {
+      "topRanking": null,
+      "__typename": "RatingsSummary"
+    },
+    "episodes": null,
+    "videos": {
+      "total": 0,
+      "__typename": "TitleRelatedVideosConnection"
+    },
+    "videoStrip": {
+      "edges": [],
+      "__typename": "VideoConnection"
+    },
+    "titleMainImages": {
+      "total": 2,
+      "edges": [
+        {
+          "node": {
+            "id": "rm130177280",
+            "url": "https://m.media-amazon.com/images/M/MV5BYjA3NGU2YzktZmI5Ni00NTVhLWJlY2EtYzA2MzNkY2JlNTUxXkEyXkFqcGdeQXVyNDE5MTU2MDE@._V1_.jpg",
+            "caption": {
+              "plainText": "Grandma's Reading Glass (1900)",
+              "__typename": "Markdown"
+            },
+            "height": 800,
+            "width": 550,
+            "__typename": "Image"
+          },
+          "__typename": "ImageEdge"
+        },
+        {
+          "node": {
+            "id": "rm674569472",
+            "url": "https://m.media-amazon.com/images/M/MV5BNGQ5MDMzYzEtNmI2OC00OTI3LWI0YmYtZmM0MDJkMmU0OGQ5XkEyXkFqcGdeQXVyNzg5OTk2OA@@._V1_.jpg",
+            "caption": {
+              "plainText": "Grandma's Reading Glass (1900)",
+              "__typename": "Markdown"
+            },
+            "height": 750,
+            "width": 500,
+            "__typename": "Image"
+          },
+          "__typename": "ImageEdge"
+        }
+      ],
+      "__typename": "ImageConnection"
+    },
+    "productionStatus": {
+      "currentProductionStage": {
+        "id": "released",
+        "text": "Released",
+        "__typename": "ProductionStage"
+      },
+      "productionStatusHistory": [
+        {
+          "status": {
+            "id": "released",
+            "text": "Released",
+            "__typename": "ProductionStatus"
+          },
+          "__typename": "ProductionStatusHistory"
+        }
+      ],
+      "restriction": null,
+      "__typename": "ProductionStatusDetails"
+    },
+    "primaryImage": {
+      "id": "rm130177280",
+      "__typename": "Image"
+    },
+    "imageUploadLink": {
+      "url": "https://contribute.imdb.com/image/tt0000304/add?bus=imdb&return_url=https%3A%2F%2Fwww.imdb.com%2Fclose_me&site=web",
+      "__typename": "ContributionLink"
+    },
+    "titleType": {
+      "id": "short",
+      "canHaveEpisodes": false,
+      "__typename": "TitleType"
+    },
+    "cast": {
+      "edges": [
+        {
+          "node": {
+            "name": {
+              "id": "nm2940072",
+              "nameText": {
+                "text": "Harold Smith",
+                "__typename": "NameText"
+              },
+              "primaryImage": {
+                "url": "https://m.media-amazon.com/images/M/MV5BNTBjYTY2NWQtMTg5Zi00MTlkLTk2YzQtMDMwZDdkNWU1ZTA2XkEyXkFqcGdeQXVyNzg5OTk2OA@@._V1_.jpg",
+                "width": 1141,
+                "height": 661,
+                "__typename": "Image"
+              },
+              "__typename": "Name"
+            },
+            "attributes": null,
+            "category": {
+              "id": "actor",
+              "__typename": "CreditCategory"
+            },
+            "characters": [
+              {
+                "name": "Willy - the little grandson",
+                "__typename": "Character"
+              }
+            ],
+            "episodeCredits": {
+              "total": 0,
+              "yearRange": null,
+              "__typename": "EpisodeCastConnection"
+            },
+            "__typename": "Cast"
+          },
+          "__typename": "CreditEdge"
+        }
+      ],
+      "__typename": "CreditConnection"
+    },
+    "creators": [],
+    "directors": [
+      {
+        "totalCredits": 1,
+        "category": {
+          "text": "Director",
+          "__typename": "CreditCategory"
+        },
+        "credits": [
+          {
+            "name": {
+              "id": "nm0808310",
+              "nameText": {
+                "text": "George Albert Smith",
+                "__typename": "NameText"
+              },
+              "__typename": "Name"
+            },
+            "attributes": null,
+            "__typename": "Crew"
+          }
+        ],
+        "__typename": "PrincipalCreditsForCategory"
+      }
+    ],
+    "writers": [],
+    "isAdult": false,
+    "triviaTotal": {
+      "total": 2,
+      "__typename": "TriviaConnection"
+    },
+    "trivia": {
+      "edges": [
+        {
+          "node": {
+            "text": {
+              "plaidHtml": "One of the very first films to use point-of-view close-up.",
+              "__typename": "Markdown"
+            },
+            "trademark": null,
+            "relatedNames": null,
+            "__typename": "TitleTrivia"
+          },
+          "__typename": "TriviaEdge"
+        }
+      ],
+      "__typename": "TriviaConnection"
+    },
+    "goofsTotal": {
+      "total": 0,
+      "__typename": "GoofConnection"
+    },
+    "goofs": {
+      "edges": [],
+      "__typename": "GoofConnection"
+    },
+    "quotesTotal": {
+      "total": 0,
+      "__typename": "TitleQuoteConnection"
+    },
+    "quotes": {
+      "edges": [],
+      "__typename": "TitleQuoteConnection"
+    },
+    "crazyCredits": {
+      "edges": [],
+      "__typename": "CrazyCreditConnection"
+    },
+    "alternateVersions": {
+      "total": 0,
+      "edges": [],
+      "__typename": "AlternateVersionConnection"
+    },
+    "soundtrack": {
+      "edges": [],
+      "__typename": "SoundtrackConnection"
+    },
+    "titleText": {
+      "text": "Grandma's Reading Glass",
+      "__typename": "TitleText"
+    },
+    "originalTitleText": {
+      "text": "Grandma's Reading Glass",
+      "__typename": "TitleText"
+    },
+    "releaseYear": {
+      "year": 1900,
+      "__typename": "YearRange"
+    },
+    "reviews": {
+      "total": 14,
+      "__typename": "ReviewsConnection"
+    },
+    "featuredReviews": {
+      "edges": [
+        {
+          "node": {
+            "id": "rw3291499",
+            "author": {
+              "nickName": "Michael_Elliott",
+              "userId": "ur13134536",
+              "__typename": "UserProfile"
+            },
+            "summary": {
+              "originalText": "Thanks Grandma",
+              "__typename": "ReviewSummary"
+            },
+            "text": {
+              "originalText": {
+                "plaidHtml": "Grandma&#39;s Reading Glasses (1900) ** (out of 4)<br/><br/>This film from George Albert Smith features a young boy looking at various objects in his grandmother&#39;s glasses. This of course magnifies the objects for the movie viewer to enjoy. You can watch a film like this and understand why people in 1900 might have been entertained by it. With that said, there&#39;s very little here to keep a modern viewer interested and even those film buffs such as myself who love these early movies will find very little here. The optical effect really isn&#39;t all that impressive and nothing he&#39;s &quot;seeing&quot; is that that interesting either.",
+                "__typename": "Markdown"
+              },
+              "__typename": "ReviewText"
+            },
+            "authorRating": null,
+            "submissionDate": "2015-08-05",
+            "helpfulness": {
+              "upVotes": 0,
+              "downVotes": 1,
+              "__typename": "ReviewHelpfulness"
+            },
+            "__typename": "Review"
+          },
+          "__typename": "ReviewEdge"
+        }
+      ],
+      "__typename": "ReviewsConnection"
+    },
+    "canRate": {
+      "isRatable": true,
+      "__typename": "CanRate"
+    },
+    "iframeAddReviewLink": {
+      "url": "https://contribute.imdb.com/review/tt0000304/add?bus=imdb&return_url=https%3A%2F%2Fwww.imdb.com%2Fclose_me&site=web",
+      "__typename": "ContributionLink"
+    },
+    "faqsTotal": {
+      "total": 0,
+      "__typename": "FaqConnection"
+    },
+    "faqs": {
+      "edges": [],
+      "__typename": "FaqConnection"
+    },
+    "releaseDate": {
+      "day": null,
+      "month": 11,
+      "year": 1900,
+      "country": {
+        "id": "GB",
+        "text": "United Kingdom",
+        "__typename": "LocalizedDisplayableCountry"
+      },
+      "__typename": "ReleaseDate"
+    },
+    "countriesOfOrigin": {
+      "countries": [
+        {
+          "id": "GB",
+          "text": "United Kingdom",
+          "__typename": "CountryOfOrigin"
+        }
+      ],
+      "__typename": "CountriesOfOrigin"
+    },
+    "detailsExternalLinks": {
+      "edges": [],
+      "total": 0,
+      "__typename": "ExternalLinkConnection"
+    },
+    "spokenLanguages": {
+      "spokenLanguages": [
+        {
+          "id": "zxx",
+          "text": "None",
+          "__typename": "SpokenLanguage"
+        }
+      ],
+      "__typename": "SpokenLanguages"
+    },
+    "akas": {
+      "edges": [
+        {
+          "node": {
+            "text": "Бабусина лупа",
+            "__typename": "Aka"
+          },
+          "__typename": "AkaEdge"
+        }
+      ],
+      "__typename": "AkaConnection"
+    },
+    "filmingLocations": {
+      "edges": [
+        {
+          "node": {
+            "text": "Brighton & Hove, East Sussex, England, UK",
+            "attributes": [],
+            "__typename": "FilmingLocation"
+          },
+          "__typename": "FilmingLocationEdge"
+        }
+      ],
+      "total": 1,
+      "__typename": "FilmingLocationConnection"
+    },
+    "production": {
+      "edges": [
+        {
+          "node": {
+            "company": {
+              "id": "co0056758",
+              "companyText": {
+                "text": "George Albert Smith Films",
+                "__typename": "CompanyText"
+              },
+              "__typename": "Company"
+            },
+            "__typename": "CompanyCredit"
+          },
+          "__typename": "CompanyCreditEdge"
+        }
+      ],
+      "__typename": "CompanyCreditConnection"
+    },
+    "companies": {
+      "total": 6,
+      "__typename": "CompanyCreditConnection"
+    },
+    "productionBudget": null,
+    "lifetimeGross": null,
+    "openingWeekendGross": null,
+    "worldwideGross": null,
+    "technicalSpecifications": {
+      "soundMixes": {
+        "items": [
+          {
+            "id": "silent",
+            "text": "Silent",
+            "attributes": [],
+            "__typename": "SoundMix"
+          }
+        ],
+        "__typename": "SoundMixes"
+      },
+      "aspectRatios": {
+        "items": [],
+        "__typename": "AspectRatios"
+      },
+      "colorations": {
+        "items": [
+          {
+            "conceptId": "black_and_white",
+            "text": "Black and White",
+            "attributes": [],
+            "__typename": "Coloration"
+          }
+        ],
+        "__typename": "Colorations"
+      },
+      "__typename": "TechnicalSpecifications"
+    },
+    "runtime": {
+      "seconds": 120,
+      "__typename": "Runtime"
+    },
+    "series": null,
+    "canHaveEpisodes": false,
+    "contributionQuestions": {
+      "contributionLink": {
+        "url": "https://contribute.imdb.com/answers",
+        "__typename": "ContributionQuestionsLink"
+      },
+      "edges": [],
+      "__typename": "QuestionConnection"
+    },
+    "__typename": "Title"
+  },
+  "urqlState": null,
+  "fetchState": null
+}
