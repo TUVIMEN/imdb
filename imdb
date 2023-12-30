@@ -6,7 +6,7 @@ ucurl() {
 }
 
 get_json() {
-    ucurl "$1" | hgrep 'script +type="application/json" @p"%i\n"' | jq -cM '.props.pageProps | del(.mainColumnData.moreLikeThisTitles) | del(.mainColumnData.connections) | del(.requestContext) | del(.cmsContext) | del(.translationContext)'
+    ucurl "$1" | hgrep 'script +type="application/json" | "%i\n"' | jq -cM '.props.pageProps | del(.mainColumnData.moreLikeThisTitles) | del(.mainColumnData.connections) | del(.requestContext) | del(.cmsContext) | del(.translationContext)'
 }
 
 #export -f ucurl get_json
@@ -15,7 +15,7 @@ get_json() {
 g='0'
 while :
 do
-    links="$(ucurl "https://www.imdb.com/sitemap/title-$g.xml.gz" | hgrep 'loc @p"%i\n"')"
+    links="$(ucurl "https://www.imdb.com/sitemap/title-$g.xml.gz" | hgrep 'loc | "%i\n"')"
     echo "$links" | grep -q '^<Error><Code>NoSuchKey</Code><Message>The specified key does not exist.</Message>' && break
     
     for j in $links
